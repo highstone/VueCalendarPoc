@@ -1,0 +1,90 @@
+// == Typography
+$font-family-base: 'Lato', sans-serif;
+
+$font-size-base: 1rem;
+// 18px = 1.125rem, assumes the browser default is set to `16px`
+
+$h1-font-size: $font-size-base * 2; //32
+$h2-font-size: $font-size-base * 1.15; //24
+$h3-font-size: $font-size-base * 1; //16
+$h4-font-size: $font-size-base * 1; //16
+$h5-font-size: $font-size-base * 1.15; //24
+$h6-font-size: $font-size-base * 0.8; //13
+
+$small-font-size: 80%; //14
+
+// == Colors
+$primary: #120a39; // matches dark
+$secondary: #009a54; //matches green
+$gray-200: #eeedf2; // matches light
+$gray-600: #656c76; // matches gray variable;
+$gray-800: #a8aab7;
+
+$light: #eeedf2;
+$dark: #120a39;
+
+$blue: #0070b8;
+$indigo: #413b61;
+$purple: #cca1f6;
+$red: #e2001a;
+$yellow: #ffcb21;
+$green: #009a54;
+$teal: #7ae5a7;
+$cyan: #28b6d4;
+$gray: #656c76;
+
+//add the gray color to the map of colored items
+$theme-colors: (
+  'indigo': $indigo,
+  'blue': $blue,
+  'red': $red,
+  'gray': $gray,
+);
+
+$spacer: 1rem;
+$spacers: (
+  6: (
+    $spacer * 4.5,
+  ),
+  7: (
+    $spacer * 6,
+  ),
+  8: (
+    $spacer * 7.5,
+  ),
+  9: (
+    $spacer * 9,
+  ),
+);
+
+$nav-tabs-underline-link-color: #a8aab7;
+$nav-tabs-underline-border-color: #d4d4df;
+$nav-tabs-underline-border-width: 4px;
+$nav-tabs-underline-border-radius: 0;
+$nav-tabs-underline-link-hover-border-color: $blue;
+$nav-tabs-underline-link-active-color: $blue;
+$nav-tabs-underline-link-active-bg: inherit;
+$nav-tabs-underline-link-active-border-color: $blue;
+
+//input styles
+$input-bg: #fff;
+$input-color: $dark;
+$input-placeholder-color: $gray;
+$input-border-color: $gray;
+
+$input-group-addon-color: $input-color;
+$input-group-addon-bg: $gray-200;
+$input-group-addon-border-color: $input-border-color;
+
+//$custom-select-indicator-color: $primary;
+
+//borders
+$card-border-width: 0;
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+//tables
+$table-head-bg: #d4d4df;
+$table-head-color: $dark;
+$table-border-color: #d4d4df;
